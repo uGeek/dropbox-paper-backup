@@ -9,14 +9,15 @@ For this reason i wrote this little script to run periodically on my NAS.
 
 # Usage
 
-    ./dropbox-paper-backup.py [--token=TOKEN] [--logfile=PATH] [--verbose] [markdown|html] <target>
+./dropbox-paper-backup.py [--token=TOKEN] [--logfile=PATH] [--verbose] [markdown|html] <target>
 
-    Options:
-      -t --token=TOKEN    The access token for the dropbox account. Omit to get a new token.
-      -l --logfile=PATH   Log to the specified file.
-      -v --verbose        Be more verbose.
-      markdown|html       Export either as "html" or as "markdown". Do both if omitted.
-      <target>            The path to store the backup in.
+Opciones:
+  -t --token=TOKEN    El token de acceso para la cuenta de Dropbox. Omitir para obtener una nueva Token
+  -l --logfile=PATH   Inicie sesión en el archivo especificado.
+  -v --verbose        Se más detallado.
+  markdown|html       Exportar ya sea "html" o  "markdown". Hacer ambas cosas si se omite
+  <target>            La ruta para almacenar la copia de seguridad en:
+
 
 
 # Installation
